@@ -24,4 +24,4 @@ if guess == password then -- if the guess is correct
 else
 	print(wrongGuess)
 	sleep(5)
-	os.reboot()
+	os.reboot() -- reboots the computer when you answer wrong
